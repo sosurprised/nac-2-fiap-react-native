@@ -1,14 +1,18 @@
 import React from 'react';
-import { StyleSheet, View } from 'react-native';
+import { StyleSheet, View, ScrollView } from 'react-native';
 import Header from './components/header/Header';
 import Footer from './components/footer/Footer';
-import Greeting from './components/greeting/Greeting';
+import Body from './components/body/Body';
+
+import PizzaCard from './components/card/PizzaCard';
 
 export default function App() {
+ 
+
   return (
     <View style={styles.container}>
       <Header/>
-      <Greeting />
+        <Body />
       <Footer/>
     </View>
   );

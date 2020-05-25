@@ -1,14 +1,16 @@
 import { StyleSheet, Dimensions } from 'react-native';
 
+const width = Dimensions.get("screen").width;
+const height = Dimensions.get("screen").height*0.07;
 const styles = StyleSheet.create({
     container : {
         flexDirection : 'row',
         alignItems: 'center',
     },
     img: {
-        height: 24,
-        width: 200      
+        height: height,
+        width: width    
     }
 });
-//width: Dimensions.get('screen').width
+
 export default styles;

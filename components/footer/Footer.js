@@ -4,8 +4,6 @@ import styles from './styles';
 import FooterImg from "../../assets/footer-img.png";
 
 
-
-
 export default class Footer extends React.Component {
     render() {
         return(
