@@ -34,13 +34,20 @@ const styles = StyleSheet.create({
     },
     date:{
         flexDirection : 'row',
-        paddingLeft: 78,
-        paddingTop: 10,
+        position:'relative',
+        left: 90,
+        top: 10,
+        bottom: 0,
+        right: 0,
     },
     number:{
         fontSize: 20,
         flexDirection : 'row',
-        paddingLeft: 170,
+        position:'relative',
+        left: 170,
+        top: 0,
+        bottom: 0,
+        right: 0,
         fontWeight: 'bold'       
     }
 });
