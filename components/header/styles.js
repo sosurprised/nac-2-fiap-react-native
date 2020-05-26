@@ -23,7 +23,11 @@ const styles = StyleSheet.create({
     icon: {
         width: 35,
         height: 35,
-        marginLeft: 160
+        position:'relative',
+        left: 160,
+        top: 0,
+        bottom: 0,
+        right: 0,
     }
 
 });
