@@ -7,30 +7,41 @@ const styles = StyleSheet.create({
         flexDirection : 'row',
         alignItems: 'center',
         alignSelf:'center',
-        height: '30%',
+        height: '28%',
         width: '95%',
-        backgroundColor: '#e63b00',
+        backgroundColor: '#e04b3a',
         marginVertical: 4
     },
     containerColumn :{
         flexDirection : 'column',
     },
-    containerRightAlign:{
+    containerRow:{
         flexDirection: 'row', 
-        justifyContent: 'flex-end'
     },
     img: {    
         height: height,
         width: height,
-        flexDirection: 'row'
+        flexDirection: 'row',
     },
     title:{   
         fontSize: 30,
         fontWeight:'bold',
+        flexDirection : 'column',
     },
     paragraph:{
         fontSize:14,
         width: '40%',
+    },
+    date:{
+        flexDirection : 'row',
+        paddingLeft: 78,
+        paddingTop: 10,
+    },
+    number:{
+        fontSize: 20,
+        flexDirection : 'row',
+        paddingLeft: 170,
+        fontWeight: 'bold'       
     }
 });
 

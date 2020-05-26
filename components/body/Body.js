@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, ImageBackground, ScrollView } from 'react-native';
 import styles from './styles';
-import { Background } from '../../assets/Images';
+import { Background } from '../../assets/images/Images';
 import  PizzaCard  from '../card/PizzaCard';
 import data from '../../assets/data/data';
 
@@ -15,7 +15,7 @@ export default class Body extends React.Component {
                     <ScrollView>
                         {
                         data.map((pizza, index) =>
-                            <PizzaCard key={index} description={pizza.description} name={pizza.name} />        
+                            <PizzaCard key={index} pizza={pizza}/>        
                         )
                         }
                     </ScrollView>
